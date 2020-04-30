@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 RUN apt update && \
-    apt -y install python3-getfem++ &&
+    apt -y install python3-getfem++ && \
     apt -y install python3-pip
 
 # install the notebook package
